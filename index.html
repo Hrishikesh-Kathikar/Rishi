@@ -11,12 +11,12 @@
 <style>
     .btn-primary {
         background-color: #0A304E;
-        border:#0A304E;
+        border: #0A304E;
         color: #fff;
     }
 
     .btn-primary:hover {
-        background-color:#0A304E;
+        background-color: #0A304E;
         border: inherit;
         box-shadow: inherit;
     }
@@ -38,6 +38,9 @@
     body {
         max-width: 800px;
         margin: 0 auto;
+        background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSjy_dvgFk1x34EGSUCwOVERH2vA7r41gROwA&usqp=CAU");
+        background-repeat: no-repeat;
+        background-size: cover;
     }
 
     h1 {
@@ -62,12 +65,18 @@
     .margin_b {
         margin-bottom: 2.5rem;
     }
+
+    #profile {
+        display: flex;
+        margin: 0 auto;
+        border-radius: 100px;
+    }
 </style>
 
 <body>
 
     <h1 style="background-color: #0A304E;">RESUME</h1>
-    <img src="download.png" alt="profile pic" style="display: flex; margin: 0 auto;">
+    <img id="profile" src="download.png" alt="profile pic">
     <h3>Name: <span>Hrishikesh Kathikar</span></h3>
     <h3>Phone: <span>7036517336</span></h3>
     <h3>Email: <a
@@ -83,7 +92,8 @@
     <p class="margin_b">Bachelor of Technology in Computer Science : 60%<br> Intermediate : 85% <br>
     </p>
     <!-- Button trigger modal -->
-    <button type="button" class="btn btn-primary w-100 font-weight-bold py-2" data-toggle="modal" data-target="#exampleModal">
+    <button type="button" class="btn btn-primary w-100 font-weight-bold py-2" data-toggle="modal"
+        data-target="#exampleModal">
         Thank you boss
     </button>
 
