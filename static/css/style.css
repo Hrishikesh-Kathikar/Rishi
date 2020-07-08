@@ -12,19 +12,24 @@
     color: white;
 }
 #hero h1{
-    font-size: 50px;
+    font-size: 45px;
 }
 #hero p{
     font-size: 20px;
     line-height: 1.9;
 }
 #hero h1 span{
-    font-size: 45px;
+    font-size: 40px;
     color: #FE86F4;
 }
 #hero div button{
     margin-bottom: 30px;
 }
+#nav .dropdown-item{
+    color: black !important;
+    font-weight: 200 !important;
+}
+
 .btn-danger:hover{
     background-color: white;
     color: red;
@@ -39,16 +44,19 @@
     border: #200844;
 }
 #online h1{
-    font-weight: 700;
+    font-weight: 600;
     font-size: 30px;
 
+}
+#online .btn-link{
+    font-weight: 500;
 }
 #online{
     background-color:#5514B4;
     color: white;
 }
 .btn-link{
-    color: #fff !important;
+    color: white;
     padding-left: 0;
 }
 .card{
@@ -56,5 +64,66 @@
     border: none;
 }
 .row{
-    margin: 0px !important;
+    margin: 20px !important;
+}
+#save {
+    background-color: #221c28;
+    color: white;
+    margin-top: 50px;
+    padding-bottom: 20px;
+    padding-top: 15px;
+}
+#sim{
+    background-color: #8028cf;
+    color: white;
+    padding-bottom: 25px;
+    padding-top: 20px;
+}
+.btn-outline-danger{
+    color: #6219c0;
+    background-color: white;
+}
+#right{
+    margin-top: 30px;
+    text-align: right;
+    font-weight: 400;
+    font-size: x-large;
+    background-color: #6219c0;
+    color: white;
+    margin-bottom: 50px;
+    padding-bottom: 30px;
+    padding-top: 20px;
+}
+
+.btn-outline-dark{
+    background-color: white;
+    color: #6219c0 ;
+}
+.btn-outline-dark:hover{
+    background-color: #4d0a98;
+}
+#id img{
+    height: auto !important;
+    width: auto !important;
+
+}
+#cards .btn-danger{
+    background-color: #6603ab;
+    border-color: #6603ab;
+}
+#cards .btn-danger:hover{
+    background-color: #3a075e;
+    color: white !important;
+}
+#end h1{
+    font-weight: 200;
+    padding-bottom: 20px;
+}
+#end h3{
+    font-weight: 400;
+    padding-bottom: 20px;
+}
+#end p{
+    padding-top: 10px;
+    font-size: initial;
 }
