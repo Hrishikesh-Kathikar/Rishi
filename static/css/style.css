@@ -1,62 +1,11 @@
-.btn-primary {
-    background-color: #0A304E;
-    border: #0A304E;
-    color: #fff;
+.white
+{
+    background-color:#5d08bd; color: white;
 }
-
-.btn-primary:hover {
-    background-color: #0A304E;
-    border: inherit;
-    box-shadow: inherit;
-}
-
-.btn-primary:active {
-    background-color: #0A304E;
-    border: inherit;
-    box-shadow: 0 0 0 .2rem #0A304E;
-
-}
-
-.btn-primary:focus {
-    background-color: #0A304E;
-    border: inherit;
-    box-shadow: inherit;
-
-}
-
-body {
-    max-width: 800px;
-    margin: 0 auto;
-    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSjy_dvgFk1x34EGSUCwOVERH2vA7r41gROwA&usqp=CAU");
+#back{
+    background-color: #221c28; color: white;
+    background-image: url(https://www.fcbarcelona.com/photo-resources/2019/09/23/11da7683-a25d-4b46-a5bd-52445ab8a8f8/mini_3200x2000-THE_BEST-MESSI.jpg?width=1200&height=750);
     background-repeat: no-repeat;
     background-size: cover;
-}
-
-h1 {
-    color: white;
-    text-align: center;
-}
-
-p {
-    font-size: large;
-}
-
-h3 {
-    text-align: center
-}
-
-span {
-    color: #0A304E;
-    font-size: medium;
-    font-weight: 300;
-}
-
-.margin_b {
-    margin-bottom: 2.5rem;
-}
-
-#profile {
-    display: flex;
-    margin: 0 auto;
-    border-radius: 100px;
+    margin-top: 50px;
 }
