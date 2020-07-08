@@ -1,11 +1,60 @@
-.white
-{
-    background-color:#5d08bd; color: white;
+#nav .navbar{
+    background-color: #5514B4;
+    min-height: 90px;
 }
-#back{
-    background-color: #221c28; color: white;
-    background-image: url(https://www.fcbarcelona.com/photo-resources/2019/09/23/11da7683-a25d-4b46-a5bd-52445ab8a8f8/mini_3200x2000-THE_BEST-MESSI.jpg?width=1200&height=750);
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin-top: 50px;
+#nav .navbar div a{
+    color: white;
+    font-weight: 600;
+    padding: inherit 10px;
+}
+#hero{
+    background-color:#984BFB;
+    color: white;
+}
+#hero h1{
+    font-size: 50px;
+}
+#hero p{
+    font-size: 20px;
+    line-height: 1.9;
+}
+#hero h1 span{
+    font-size: 45px;
+    color: #FE86F4;
+}
+#hero div button{
+    margin-bottom: 30px;
+}
+.btn-danger:hover{
+    background-color: white;
+    color: red;
+}
+.btn-primary{
+    background-color: #6400AA;
+    color:white;
+    border: #6400AA;
+}
+.btn-primary:hover{
+    background-color: #200844;
+    border: #200844;
+}
+#online h1{
+    font-weight: 700;
+    font-size: 30px;
+
+}
+#online{
+    background-color:#5514B4;
+    color: white;
+}
+.btn-link{
+    color: #fff !important;
+    padding-left: 0;
+}
+.card{
+    margin: 5px;
+    border: none;
+}
+.row{
+    margin: 0px !important;
 }
