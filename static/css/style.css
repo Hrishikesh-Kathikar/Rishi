@@ -29,7 +29,6 @@
     color: black !important;
     font-weight: 200 !important;
 }
-
 .btn-danger:hover{
     background-color: white;
     color: red;
@@ -94,7 +93,6 @@
     padding-bottom: 30px;
     padding-top: 20px;
 }
-
 .btn-outline-dark{
     background-color: white;
     color: #6219c0 ;
