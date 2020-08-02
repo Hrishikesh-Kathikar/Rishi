@@ -1,8 +1,11 @@
 section{
-    margin-bottom: 85px;
+    margin: 0px 0px 0px 0px;
     padding-top: 2px;
     padding-left: 70px;
     padding-right: 25px;
+}
+.navbar{
+    box-shadow: 10px 5px 55px gray;
 }
 nav{
     display: flex;
@@ -63,9 +66,9 @@ nav ul li a{
 }
 iframe{
     padding-left: 70px;
-    position: static;
 }
 .hero{
+    padding-top: 60px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -262,12 +265,12 @@ a p{
 }
 .box2{
     width: 300px;
-    border: 3px solid #ccc;
+    border: 3px solid rgb(241, 238, 238);
     padding-left: 10px;
     padding-bottom: 30px;
     border-radius: 15px;
     margin-bottom: 30px;
-    border-color: gray;
+    box-shadow: 10px 5px 15px gray;
 }
 .comm{
     display: flex;
